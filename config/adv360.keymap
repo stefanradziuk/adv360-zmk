@@ -42,7 +42,7 @@
       >;
     };
 
-    extra2 {
+    keypad {
       // Copy of Base but can trigger mirroring from the RHS instead of LHS
       // To switch between LHS/RHS dominant:
       // - LHS: Mod + -
@@ -57,7 +57,7 @@
       >;
     };
 
-    extra1 {
+    fn {
       display-name = "Mirrored";
       bindings = <
         &kp EQUAL &kp N0    &kp N9   &kp N8   &kp N7     &kp N6 &mo MD                                                          &mo MD &kp N5 &kp N4 &kp N3    &kp N2   &kp N1   &kp MINUS
@@ -68,7 +68,7 @@
       >;
     };
 
-    keypad {
+    mod {
       display-name = "Kp";
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                          &mo MD &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
@@ -78,7 +78,7 @@
         &mo FN    &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0              &kp DOWN   &kp UP       &kp KP_DOT    &kp RBKT        &mo FN
       >;
     };
-    fn {
+    extra1 {
       display-name = "Fn";
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                          &mo MD &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
@@ -88,7 +88,7 @@
         &trans &trans &trans &trans &trans               &trans &trans &kp END &kp PG_DN &trans &trans          &trans &trans &trans  &trans  &trans
       >;
     };
-    mod {
+    extra2 {
       display-name = "Mod";
       bindings = <
         &to BS &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                     &trans                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &to RR
