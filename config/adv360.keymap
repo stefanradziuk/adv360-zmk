@@ -47,7 +47,7 @@
       // To switch between LHS/RHS dominant:
       // - LHS: Mod + -
       // - LHS: Mod + =
-      display-name = "Base R";
+      display-name = "Kp";
       bindings = <
         &kp MINUS &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &mo MD                                                          &mo MD &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp EQUAL
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
@@ -58,7 +58,7 @@
     };
 
     fn {
-      display-name = "Mirrored";
+      display-name = "Fn";
       bindings = <
         &kp EQUAL &kp N0    &kp N9   &kp N8   &kp N7     &kp N6 &mo MD                                                          &mo MD &kp N5 &kp N4 &kp N3    &kp N2   &kp N1   &kp MINUS
         &kp BSLH  &kp P     &kp O    &kp I    &kp U      &kp Y  &none                                                            &none &kp T  &kp R  &kp E     &kp W    &kp Q    &kp TAB
@@ -69,7 +69,7 @@
     };
 
     mod {
-      display-name = "Kp";
+      display-name = "Mod";
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                          &mo MD &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
@@ -79,7 +79,7 @@
       >;
     };
     extra1 {
-      display-name = "Fn";
+      display-name = "Red";
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                          &mo MD &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &trans &kp UP &trans &trans &trans  &none                                           &none &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans &trans
@@ -89,7 +89,7 @@
       >;
     };
     extra2 {
-      display-name = "Mod";
+      display-name = "Purple";
       bindings = <
         &to BS &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                     &trans                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &to RR
         &none &none        &none        &none        &none        &none        &bootloader                                                               &bootloader            &none        &none        &none        &none &none &none
